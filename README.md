@@ -6,12 +6,7 @@ Dataset: Snowflake Sample Data   ('app.snowflake.com/me-central2.gcp/az25019/#/d
 Installation
 To run the analysis, you'll need to have the following libraries installed:
 
-pip install snowflake-connector-python[pandas]
-pip install pandas
-pip install numpy
-pip install matplotlib
-pip install seaborn
-
+snowflake-connector-python[pandas], pandas, numpy, matplotlib, seaborn
 
 The script connects to Snowflake and imports the sample data using the snowflake-connector-python library. Here's a brief overview of the process:
 
